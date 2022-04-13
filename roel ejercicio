@@ -1,0 +1,36 @@
+package veranoPaquete;
+
+
+import java.util.Scanner;
+
+
+public class veranoClase {
+
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner mostrar = new Scanner(System.in);
+        
+        System.out.println("Ingresa numero");
+        int n = mostrar.nextInt();
+        if(n != 0){
+            if(n>0){
+                if(n%2==0){
+                    System.out.printf("%d Par positivo ",n);
+                }else{
+                    System.out.printf("%d Impar negativo ",n);
+                }
+            }else{
+                if(n%2==0){
+                    System.out.printf("%d Par negativo ",n);
+                }else{
+                    System.out.printf("%d Impar negativo ",n);
+                }
+            }
+            
+        }else{
+            System.out.printf("%d es Neutro \n",n);
+        }
+        
+        
+    }
+}
