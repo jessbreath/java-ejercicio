@@ -1,0 +1,51 @@
+
+package ejercicio7A;
+
+public class Instanciacion {
+        
+            String marca, color;
+            int modelo;
+            double precio;
+        public static void main(String[] args){
+            //Creando Objetos de la clase instanciacion
+            Instanciacion primerAuto = new Instanciacion();
+            Instanciacion segundoAuto = new Instanciacion();
+            Instanciacion tercerAuto = new Instanciacion();
+            //Asignando valores a los atributos del primer auto
+            primerAuto.marca = "Ford";
+            primerAuto.color = "AmARILLO";
+            primerAuto.modelo = 2014;
+            primerAuto.precio = 197800.50;
+            
+            segundoAuto.marca = "Nissan";
+            segundoAuto.color ="Azul";
+            segundoAuto.modelo = 2021;
+            segundoAuto.precio = 200000.00;
+            
+            tercerAuto.marca = "Chevrolet";
+            tercerAuto.color = "Blanco";
+            tercerAuto.modelo = 2022;
+            tercerAuto.precio = 198716.49;
+            //Mostrando los datos del primerAuto
+            System.out.println("Datos del Primer Auto");
+            System.out.println("Marca: "+ primerAuto.marca);
+            System.out.println("Color: "+ primerAuto.color);
+            System.out.println("Modelo: "+ primerAuto.modelo);
+            System.out.println("Precio: "+ primerAuto.precio);
+            System.out.println("******************************");
+            //Mostrando los datos del segundoAuto
+            System.out.println("Datos del Primer Auto");
+            System.out.println("Marca: "+ segundoAuto.marca);
+            System.out.println("Color: "+ segundoAuto.color);
+            System.out.println("Modelo: "+ segundoAuto.modelo);
+            System.out.println("Precio: "+ segundoAuto.precio);
+            //Mostrando los datos del tercerAuto
+            System.out.println("******************************");
+            System.out.println("Datos del Primer Auto");
+            System.out.println("Marca: "+ tercerAuto.marca);
+            System.out.println("Color: "+ tercerAuto.color);
+            System.out.println("Modelo: "+ tercerAuto.modelo);
+            System.out.println("Precio: "+ tercerAuto.precio);
+          
+        }
+}
