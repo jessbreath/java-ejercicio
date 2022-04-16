@@ -1,0 +1,22 @@
+//Recuerda que Auto es como se llama la clase 
+package ejercicio8;
+
+public class Auto {
+    //Creando atributos del Auto
+    String marca, color;
+    int modelo;
+    double precio;
+    //metodo(parametro)
+    void arrancarAuto(String marca,String color,int modelo,double precio ){
+        System.out.println("El auto "+ marca + " de color "+ color + " modelo " +modelo +" precio "+ precio+ " arranco ok");
+ }
+    void apagarAuto(String marca, String color,int modelo,double precio){
+        System.out.println("El auto "+marca+" de color "+color + " modelo " +modelo +" precio "+ precio+" se apagó ok");
+    }
+    void acelerarAuto(String marca, String color, int modelo,double precio){
+        System.out.println("El auto "+marca+" de color "+color + " modelo " +modelo +" precio "+ precio+" aceleró ok");
+    }
+    void frenoAuto(String marca,String color, int modelo, double precio){
+        System.out.println("El auto "+marca+" de color "+color + " modelo " +modelo +" precio "+ precio+" frenó ok");
+    }
+}
