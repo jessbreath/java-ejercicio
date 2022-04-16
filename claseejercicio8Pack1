@@ -1,0 +1,14 @@
+//Aca estamos instanciando y eso junto a paquete Auto hará que se muestre la info de aqui
+package ejercicio8;
+
+public class ejercicio8 {
+    public static void main(String[] args){
+        //Creando mis intancias/objetos
+        Auto primerAuto = new Auto();
+        Auto segundoAuto = new Auto();
+        //Llamando a los metodos
+        primerAuto.arrancarAuto("Chovrolet","Azul",2012,198456.12);
+        segundoAuto.apagarAuto("Nissan", "Rojo",2021,187878787.15);
+        
+    }
+}
