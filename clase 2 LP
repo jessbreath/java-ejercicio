@@ -1,0 +1,23 @@
+package ejercicio7A;
+
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+
+public class array {
+    
+    public static void main(String [] args){
+        Scanner lista = new Scanner(System.in);
+        //definicion de arreglo
+        String productos[] = new String[5];
+        for(int i=0;i<5;i++){   
+            //System.out.println("Ingrese producto "+(i+1)+ ": ");
+            productos[i]= JOptionPane.showInputDialog(null,"Nombre de producto");
+            //productos[i]= lista.nextLine();
+        }
+        //Salida de datos
+        for(int k=0;k<5;k++){
+           JOptionPane.showMessageDialog(null,productos[k]);
+        //System.out.println("Producto ingresado: "+productos[k]);
+        }
+    }
+}
